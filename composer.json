@@ -14,11 +14,19 @@
             "Kumpuldev\\DaftarBankIndonesia\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kumpuldev\\DaftarBankIndonesia\\BankServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
     "authors": [
         {
             "name": "novriyaldi91",
             "email": "novriyaldi91@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "prefer-stable": true
 }
